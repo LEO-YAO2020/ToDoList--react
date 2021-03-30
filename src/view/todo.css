@@ -1,0 +1,49 @@
+.content{
+    width: 200px;
+    height: 50px;
+}
+span{
+    text-decoration: none;
+    color: black;
+}
+span:hover{
+    color: red;
+    cursor: pointer;
+}
+.main{
+    position: relative;
+}
+.form{
+    position: absolute;
+
+    top: 30px;
+    left: 20px;
+
+}
+.todo{
+
+    position: absolute;
+    top: 30px;
+    left: 350px;
+
+}
+tr{
+    cursor: pointer;
+}
+.todo table{
+    width: 500px;
+    margin-top: 50px;
+    border: 1px solid black;
+}
+.todo table tbody tr:nth-child(even){
+    background-color: #f6f4dd;
+}
+.todo table thead{
+    background-color: #b3b3a1;
+}
+.todo table tbody th{
+    font-weight: normal;
+}
+.form table tr td{
+    height: 50px;
+}
